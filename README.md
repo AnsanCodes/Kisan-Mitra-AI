@@ -1,9 +1,9 @@
-# CropGuard
+# KisanMitraAI
 
 **AI-Powered Crop Disease Identification** — a science-exhibition prototype for
 Genesis 2026.
 
-CropGuard will identify crop diseases from photographs of leaves using an image
+KisanMitraAI will identify crop diseases from photographs of leaves using an image
 classification model that runs **entirely inside the browser**. No backend, no
 account, no upload: the classifier covers the full 38-class colour PlantVillage
 dataset across 14 crops, and the interface defaults to the **tomato** crop.
@@ -41,7 +41,7 @@ src/
   app/                 Routes. page.tsx only composes sections; globals.css holds
                        the design tokens (colour, type, motion) and base rules.
   components/
-    brand/             The CropGuard mark, drawn as inline SVG. No image assets.
+    brand/             The KisanMitraAI mark, drawn as inline SVG. No image assets.
     layout/            Site header and footer, shared by every route.
     home/              One component per homepage section.
     ui/                Small reusable primitives: ButtonLink, SectionLabel, StatusBadge.
@@ -87,4 +87,5 @@ The interface uses no paid or third-party assets; fonts are self-hosted by
 `next/font`. Disease guidance must come from cited plant-pathology sources
 before the exhibition build — record each one in the `references` field of the
 `Disease` type and set `contentStatus: "verified"`.
+# Kisan-Mitra-AI
 # Kisan-Mitra-AI
